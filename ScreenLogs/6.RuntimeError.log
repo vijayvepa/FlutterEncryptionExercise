@@ -1,0 +1,20 @@
+Launching lib/main.dart on iPhone 8 Plus in debug mode...
+Running Xcode clean...
+Starting Xcode build...
+Xcode build done
+Syncing files to device iPhone 8 Plus...
+[VERBOSE-2:dart_error.cc(16)] Unhandled exception:
+type 'Future<dynamic>' is not a subtype of type 'Future<String>' where
+  Future is from dart:async
+  Future is from dart:async
+  String is from dart:core
+
+#0      PlatformStringCryptor.generateRandomKey (package:flutter_string_encryption/flutter_string_encryption.dart:68:16)
+#1      _MyAppState.initPlatformState (file:///Users/vijayvepakomma/Gitlab/FlutterExamples/Persistence/encryption_demo/lib/main.dart:26:31)
+<asynchronous suspension>
+#2      _MyAppState.initState (file:///Users/vijayvepakomma/Gitlab/FlutterExamples/Persistence/encryption_demo/lib/main.dart:19:5)
+#3      StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:3734:58)
+#4      ComponentElement.mount (package:flutter/src/widgets/framework.dart:3600:5)
+#5      Element.inflateWidget (package:flutter/src/widgets/framework.dart:2890:14)
+#6      Element.updateChild (package:flutter/src/widgets/framework.dart:2693:12)
+#7      RenderObjectToWidgetElement._rebuild (package:f<…>

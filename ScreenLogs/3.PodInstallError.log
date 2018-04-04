@@ -1,0 +1,12 @@
+MACC02RR83AG8WP:ios vijayvepakomma$ pod install
+Analyzing dependencies
+Fetching podspec for `Flutter` from `Pods/.symlinks/flutter/ios`
+Fetching podspec for `flutter_string_encryption` from `Pods/.symlinks/plugins/flutter_string_encryption-0.0.1/ios`
+Downloading dependencies
+Installing Flutter (1.0.0)
+Installing SCrypto (2.0.0)
+Installing flutter_string_encryption (0.0.1)
+[!] Pods written in Swift can only be integrated as frameworks; add `use_frameworks!` to your Podfile or target to opt into using it. The Swift Pods being used are: SCrypto and flutter_string_encryption
+
+[!] `<PBXGroup UUID=`97C146E51CF9000F007C117D`>` attempted to initialize an object with an unknown UUID. `CF3B75C9A7D2FA2A4C99F110`for attribute: `children`. This can be the result of a merge and  the unknown UUID is being discarded.
+MACC02RR83AG8WP:ios vijayvepakomma$

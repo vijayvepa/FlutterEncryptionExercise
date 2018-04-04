@@ -1,0 +1,14 @@
+MACC02RR83AG8WP:encryption_demo vijayvepakomma$ cd ios
+MACC02RR83AG8WP:ios vijayvepakomma$ pod install
+Analyzing dependencies
+Fetching podspec for `Flutter` from `Pods/.symlinks/flutter/ios`
+Fetching podspec for `flutter_string_encryption` from `Pods/.symlinks/plugins/flutter_string_encryption-0.0.1/ios`
+[!] CocoaPods could not find compatible versions for pod "flutter_string_encryption":
+  In Podfile:
+    flutter_string_encryption (from `Pods/.symlinks/plugins/flutter_string_encryption-0.0.1/ios`)
+
+Specs satisfying the `flutter_string_encryption (from `Pods/.symlinks/plugins/flutter_string_encryption-0.0.1/ios`)` dependency were found, but they required a higher minimum deployment target.
+
+[!] `<PBXGroup UUID=`97C146E51CF9000F007C117D`>` attempted to initialize an object with an unknown UUID. `CF3B75C9A7D2FA2A4C99F110` for attribute: `children`. This can be the result of a merge and  the unknown UUID is being discarded.
+
+[!] Automatically assigning platform `ios` with version `8.0` on target `Runner` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.

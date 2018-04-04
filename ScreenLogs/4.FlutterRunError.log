@@ -1,0 +1,15 @@
+Launching lib/main.dart on iPhone X in debug mode...
+Running Xcode clean...
+Starting Xcode build...
+Xcode build done
+Failed to build iOS app
+Error output from Xcode build:
+↳
+    ** BUILD FAILED **
+
+Xcode's output:
+↳
+    === BUILD TARGET SCrypto OF PROJECT Pods WITH CONFIGURATION Debug ===
+    The “Swift Language Version” (SWIFT_VERSION) build setting must be set to a supported value for targets which use Swift. This setting can be set in the build settings editor.
+Could not build the application for the simulator.
+Error launching application on iPhone X.
